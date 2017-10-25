@@ -1,0 +1,64 @@
+body {
+  color: #202131;
+  background-color: #F3F2F0;
+  font-family: 'Cabin', sans-serif;
+  background-image: url("images/hoxton.jpg");
+}
+
+h1 {
+  color: #521818;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  color: #A95151;
+  font-family: 'Nunito', sans-serif;
+}
+
+#fan_page {
+  color: #493C32;
+  background-color: #E2C5C5;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.movie_name {
+  color: #521818;
+}
+
+#profile {
+  border-radius: 40%;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  width: 800px;
+  margin: 15px auto;
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 5px #888888;
+  border-radius: 15px;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.list-inline {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+  font-size: 50px;
+}
+
+.fa {
+  color: #979BA1;
+}
