@@ -60,7 +60,12 @@ h2 {
 .list-inline > li {
   display: inline-block;
   padding: 0px 40px;
-  font-size: 50px;
+  font-size: 40px;
+}
+.bottom-list-inline > li {
+  display: inline-block;
+  padding: 0px 40px;
+  font-size: 20px;
 }
 
 .fa {
@@ -69,13 +74,29 @@ h2 {
 
 #sidebar {
   position: fixed;
-  width: 100px;
+  width: 105px;
   left: 0;
   top: 0;
   bottom: 0;
   padding-left: 0px;
   list-style: none;
-  text-align: left;
+  text-align: center;
+  background-color: #3C3F44;
 }
 
+#sidebar li {
+    margin: 20px auto 10px 0px;
+}
 
+.fa-info-circle:hover, .fa-eye:hover, .fa-arrow-circle-down:hover {
+    color: white;
+}
+
+#lewagon-link {
+  text-decoration: none;
+  color: #A2A5AB;
+}
+
+#lewagon-link:hover, .bottom-links:hover {
+  color: #A95151;
+}
