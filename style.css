@@ -15,7 +15,7 @@ h2 {
   font-family: 'Nunito', sans-serif;
 }
 
-#fan_page {
+#fan-page {
   color: #493C32;
   background-color: #E2C5C5;
   text-decoration: none;
@@ -24,7 +24,11 @@ h2 {
   border-radius: 5px;
 }
 
-.movie_name {
+#fan-page:hover {
+  background-color: #A95151;
+}
+
+.movie-name {
   color: #521818;
 }
 
@@ -39,7 +43,7 @@ h2 {
   width: 800px;
   margin: 15px auto;
   border: 1px solid lightgrey;
-  box-shadow: 2px 2px 5px #888888;
+  box-shadow: 2px 2px 4px #888888;
   border-radius: 15px;
 }
 
@@ -62,3 +66,16 @@ h2 {
 .fa {
   color: #979BA1;
 }
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-left: 0px;
+  list-style: none;
+  text-align: left;
+}
+
+
